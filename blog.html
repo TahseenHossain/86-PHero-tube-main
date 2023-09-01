@@ -9,22 +9,23 @@
     <title>Blog</title>
 </head>
 <body class="mx-16">
-    <nav>
+    <nav class="mx-16">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <img src="./Logo.png" alt="" srcset="">
+                <img src="./Logo.png" alt="" srcset="">
             </div>
             <div class="navbar-center lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><button class="bg-[#25252533] text-xl font-medium px-5 py-2">Sort by view</button></li>
-              </ul>
+                <ul class="menu menu-horizontal px-1">
+                    <li><button class="bg-[#25252533] text-xl font-medium px-5 py-2" onclick="window.location.href = 'index.html'" >Index</button></li>
+                </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn text-white bg-[#FF1F3D] px-5 py-2" onclick="window.location.href = 'blog.html'">Blog</a>
+                <a class="btn text-white bg-[#FF1F3D] px-5 py-2" onclick="window.location.href = 'blog.html'">Blog</a>
             </div>
-          </div>
-          <hr class="color-[#17171733] mb-8">
+        </div>
+        <hr class="color-[#17171733] mb-8">
     </nav>
+
     <section class="mt-10">
         <h3>Those variables declared as var will be in function scope. This means after they gets declared they can be accessed any point in the function </h3>
         <h3>Those variables declared as let will be in block scope. This means after they gets declared they can be accessed only in that block. Let can be reassigned </h3>
@@ -39,5 +40,6 @@
     <section class="mt-10">
         <h3>Rest API are those API that conforms to the design principles of the REST, or representational state transfer architectural style.</h3>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
